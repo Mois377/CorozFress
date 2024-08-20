@@ -1,0 +1,70 @@
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Productos de Corozo</title>
+    <link rel="stylesheet" href="descoracion.css"> <!-- Conexión al archivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Tienda de Corozo</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#qr">Escanea el QR</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <nav>
+            <ul>
+                <li><a href="#collar">Collar de Corozo</a></li>
+                <li><a href="#pulsera">Pulsera de Corozo</a></li>
+            </ul>
+        </nav>
+        <div id="collar" class="product">
+            <h3>Collar de Corozo</h3>
+            <p>Un hermoso collar hecho de corozo natural.</p>
+            <button onclick="verQr('randomqr-256.png')">Ver QR para este producto</button>
+        </div>
+        <div id="pulsera" class="product">
+            <h3>Pulsera de Corozo</h3>
+            <p>Elegante pulsera hecha a mano con corozo.</p>
+            <button onclick="verQr('images.png')">Ver QR para este producto</button>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <nav>
+            <ul>
+                <li><a href="#productos">Ir a Productos</a></li>
+                <li><a href="#qr">Ir a QR</a></li>
+            </ul>
+        </nav>
+        <p>Puedes contactarnos a través de nuestras redes sociales o enviarnos un correo a <a href="mailto:info@corozo.com">info@corozo.com</a>.</p>
+    </section>
+
+    <section id="qr">
+        <h2>Escanea el QR</h2>
+        <nav>
+            <ul>
+                <li><a href="#productos">Ir a Productos</a></li>
+                <li><a href="#contacto">Ir a Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="qr-display">
+            <p>Haz clic en un botón para ver el código QR del producto.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Tienda de Corozo. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="responsive.js"></script> <!-- Conexión al archivo JavaScript -->
+
+
+</body></html>
